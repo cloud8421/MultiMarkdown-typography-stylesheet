@@ -184,8 +184,15 @@ font : 1em 'andale mono', 'lucida console', monospace; }
 /* Lists -------------------------------------------------------------- */
 
 li ul, li ol { 
-list-style-type : circle;
 margin : 0 1.5em .75em 1.5em; }
+
+li ul {
+list-style-type : circle;
+}
+
+li ol {
+list-style-type : decimal;
+}
 
 ul, ol {
 margin : 0 1.5em 1.5em 0; }
