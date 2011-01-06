@@ -186,22 +186,8 @@ font : 1em 'andale mono', 'lucida console', monospace; }
 li ul, li ol { 
 margin : 0 1.5em .75em 1.5em; }
 
-li ul {
-list-style-type : circle;
-}
-
-li ol {
-list-style-type : decimal;
-}
-
 ul, ol {
 margin : 0 1.5em 1.5em 0; }
-
-ul { 
-list-style-type : disc; }
-
-ol {
-list-style-type : decimal; }
 
 dl {
 margin-bottom: 1.5em; 
@@ -230,7 +216,9 @@ table, td, th {
 vertical-align : top; }
 
 th, thead th {
-font-weight : bold; }
+font-weight : bold;
+background: #eee;
+border-top : 1px solid #ccc; }
 
 th, td, caption {
 padding : 4px 10px 4px 5px; 
